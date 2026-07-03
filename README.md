@@ -26,4 +26,10 @@ Transcribes DNA to RNA, finds complement and reverse complement.
 - Reverse complement calculator
 - File: dna_rna_tools.py
 
+- Uses Biopython library to analyze sequences professionally.
+- Sequence analysis with Bio.Seq
+- FASTA parsing with SeqIO
+- Downloads real genes from NCBI database
+- File: biopython_analysis.py
+
 

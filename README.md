@@ -32,4 +32,12 @@ Transcribes DNA to RNA, finds complement and reverse complement.
 - Downloads real genes from NCBI database
 - File: biopython_analysis.py
 
+6. Protein Translation Tool (Day 6)
+Translates DNA all the way to protein using codon tables.
+- Manual codon table built with dictionaries
+- Step by step codon reading with while loop
+- Complete DNA → RNA → Protein pipeline
+- f-strings for clean output formatting
+- File: protein_translation.py
+
 

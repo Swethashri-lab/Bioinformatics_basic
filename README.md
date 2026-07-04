@@ -1,43 +1,68 @@
-# DNA Analysis Tools
+# 🧬 Bioinformatics Toolkit
 
-My first bioinformatics project — built while learning NGS and transcriptomics.
+A complete DNA analysis pipeline built from scratch using 
+Python and Biopython while learning NGS and transcriptomics.
 
-## Tools Included
+---
 
-### 1. Nucleotide Counter (Day 1)
-Counts A, T, G, C bases in any DNA sequence.
+## 📁 Project Contents
 
-### 2. GC Content Calculator (Day 2)
-Calculates GC percentage and gives biological interpretation.
-High GC = stable DNA. Low GC = less stable DNA.
+| File | What it does | Day Built |
+|------|-------------|-----------|
+| nucleotide_counter.py | Counts A,T,G,C in any sequence | Day 1 |
+| gc_content_calculator.py | Calculates GC% with stability analysis | Day 2 |
+| dna_rna_tools.py | Transcription + reverse complement | Day 3 |
+| fasta_parser.py | Reads and analyzes real FASTA files | Day 4 |
+| biopython_analysis.py | Professional analysis + NCBI download | Day 5 |
+| protein_translation.py | Codon table + DNA to protein | Day 6 |
+| master_toolkit.py | Complete pipeline — all tools combined | Day 7 |
 
-## How to Run
-Open gc_content_calculator.py in Google Colab and paste any DNA sequence.
+---
 
-## Skills Used
-- Python 3
-- String manipulation
-- Conditional logic
-- Biological sequence analysis
+## 🔬 What This Toolkit Does
 
-Transcribes DNA to RNA, finds complement and reverse complement.
-- DNA → RNA transcription
-- Complement strand finder
-- Reverse complement calculator
-- File: dna_rna_tools.py
-
-- Uses Biopython library to analyze sequences professionally.
-- Sequence analysis with Bio.Seq
-- FASTA parsing with SeqIO
+- Counts nucleotide composition of any DNA sequence
+- Calculates GC content and DNA stability
+- Transcribes DNA to RNA
+- Finds reverse complement strand
+- Parses real multi-sequence FASTA files
 - Downloads real genes from NCBI database
-- File: biopython_analysis.py
+- Translates DNA all the way to protein
 
-6. Protein Translation Tool (Day 6)
-Translates DNA all the way to protein using codon tables.
-- Manual codon table built with dictionaries
-- Step by step codon reading with while loop
-- Complete DNA → RNA → Protein pipeline
-- f-strings for clean output formatting
-- File: protein_translation.py
+---
 
+## 🛠️ Tools Used
 
+- Python 3
+- Biopython
+- Google Colab
+- NCBI Entrez
+
+---
+
+## ▶️ How to Run
+
+1. Open master_toolkit.py in Google Colab
+2. Run all cells
+3. Paste any DNA sequence into run_complete_pipeline()
+4. Get full analysis instantly
+
+---
+
+## 📈 Skills Demonstrated
+
+- Python programming from scratch
+- Biological sequence analysis
+- File parsing and handling
+- Working with professional bioinformatics libraries
+- Accessing public biological databases (NCBI)
+- Object oriented thinking with Biopython Seq objects
+
+---
+
+## 👤 About
+
+Built by swethashri
+
+Learning journey: NGS | Transcriptomics | Computational Biology
+Location: Chennai, India

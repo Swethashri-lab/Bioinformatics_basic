@@ -1,68 +1,59 @@
 # 🧬 Bioinformatics Toolkit
 
-A complete DNA analysis pipeline built from scratch using 
-Python and Biopython while learning NGS and transcriptomics.
+A complete bioinformatics learning portfolio built from 
+scratch — Python, Linux, NGS tools, and data analysis.
+
+Built by: Swethashri | Coimbatore, India
+Learning: NGS | Transcriptomics | Computational Biology
 
 ---
 
-## 📁 Project Contents
+## 📁 Repository Contents
 
-| File | What it does | Day Built |
-|------|-------------|-----------|
-| nucleotide_counter.py | Counts A,T,G,C in any sequence | Day 1 |
-| gc_content_calculator.py | Calculates GC% with stability analysis | Day 2 |
-| dna_rna_tools.py | Transcription + reverse complement | Day 3 |
-| fasta_parser.py | Reads and analyzes real FASTA files | Day 4 |
-| biopython_analysis.py | Professional analysis + NCBI download | Day 5 |
-| protein_translation.py | Codon table + DNA to protein | Day 6 |
-| master_toolkit.py | Complete pipeline — all tools combined | Day 7 |
+### Week 1 — Python + Biopython Foundation
+| File | Description |
+|------|-------------|
+| nucleotide_counter.py | Count A,T,G,C in DNA sequences |
+| gc_content_calculator.py | GC% with stability analysis |
+| dna_rna_tools.py | Transcription + reverse complement |
+| fasta_parser.py | Parse real FASTA files |
+| biopython_analysis.py | Professional Biopython tools |
+| protein_translation.py | DNA → RNA → Protein pipeline |
+| master_toolkit.py | Complete Days 1-6 combined |
 
----
-
-## 🔬 What This Toolkit Does
-
-- Counts nucleotide composition of any DNA sequence
-- Calculates GC content and DNA stability
-- Transcribes DNA to RNA
-- Finds reverse complement strand
-- Parses real multi-sequence FASTA files
-- Downloads real genes from NCBI database
-- Translates DNA all the way to protein
+### Week 2 — Linux + Data Analysis
+| File | Description |
+|------|-------------|
+| linux_basics.py | Linux terminal commands |
+| bash_scripting.py | NGS pipeline bash scripts |
+| ncbi_sra_download.py | Download from NCBI + SRA |
+| pandas_bioinformatics.py | Gene data analysis tables |
+| rnaseq_visualization.py | Volcano plots + heatmaps |
 
 ---
 
-## 🛠️ Tools Used
-
-- Python 3
-- Biopython
-- Google Colab
-- NCBI Entrez
-
----
-
-## ▶️ How to Run
-
-1. Open master_toolkit.py in Google Colab
-2. Run all cells
-3. Paste any DNA sequence into run_complete_pipeline()
-4. Get full analysis instantly
-
----
-
-## 📈 Skills Demonstrated
-
+## 🔬 Skills Demonstrated
 - Python programming from scratch
 - Biological sequence analysis
-- File parsing and handling
-- Working with professional bioinformatics libraries
-- Accessing public biological databases (NCBI)
-- Object oriented thinking with Biopython Seq objects
+- Linux terminal and bash scripting
+- NCBI database access
+- NGS data handling (FASTQ format)
+- RNA-seq differential expression
+- Data visualization (volcano plots, heatmaps)
+- Conda environment management
 
----
+## 🛠️ Tools Used
+- Python 3, Biopython, Pandas, Matplotlib
+- Linux/Bash, Conda
+- Google Colab, GitHub
 
-## 👤 About
+## ▶️ How to Run
+1. Clone this repository
+2. Create conda environment:
+   conda env create -f environment.yml
+3. Open any .py file in Google Colab
+4. Run all cells
 
-Built by swethashri
-
-Learning journey: NGS | Transcriptomics | Computational Biology
-Location: Chennai, India
+## 👤 Contact
+Swethashri K  — sweth102003@gmail.com
+LinkedIn: www.linkedin.com/in/swethashri-k-a35902266
